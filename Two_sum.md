@@ -9,6 +9,7 @@ class Solution:
                     return [i, j]
                 j += 1
             i += 1
+            
 <img width="1917" height="947" alt="Снимок экрана 2026-10-15 224615" src="https://github.com/user-attachments/assets/e1bdbc1b-895a-4e12-b554-c2884a0f8713" />
 # Runtime 2956 ms, Memory 19,61 mb, Временная сложность: O(n²), Пространственная сложность: O(1)
 
@@ -21,6 +22,7 @@ class Solution:
                 return [hash_map[target - num], i]
             hash_map[num] = i
         return []
+        
   <img width="1917" height="957" alt="Снимок экрана 2026-10-15 224653" src="https://github.com/user-attachments/assets/9b7b4fc5-fdc0-443e-8aad-f56d76ecc7fb" />
 
 # Runtime 1 ms, Memory 20,44 mb, Временная сложность: O(n), Пространственная сложность: O(n)
