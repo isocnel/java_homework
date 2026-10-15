@@ -1,7 +1,9 @@
 # Решение в лоб
+
+```python
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
-       i = 0
+        i = 0
         while i < len(nums):
             j = i + 1
             while j < len(nums):
@@ -9,6 +11,13 @@ class Solution:
                     return [i, j]
                 j += 1
             i += 1
+```
+
+# Анализ сложности
+* Runtime: 2956 ms
+* Memory: 19.61 mb
+* Временная сложность: O(n²)
+* Пространственная сложность: O(1)
             
 <img width="1917" height="947" alt="Снимок экрана 2026-10-15 224615" src="https://github.com/user-attachments/assets/e1bdbc1b-895a-4e12-b554-c2884a0f8713" />
 # Runtime 2956 ms, Memory 19,61 mb, Временная сложность: O(n²), Пространственная сложность: O(1)
